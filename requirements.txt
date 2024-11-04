@@ -1,4 +1,4 @@
 Flask==0.12.3        # Vulnerable to Denial of Service (DoS) attacks (CVE-2018-1000656)
-requests==2.27.0     # Vulnerable to HTTP header injection (CVE-2018-18074)
+requests==2.32.0     # Vulnerable to HTTP header injection (CVE-2018-18074)
 jinja2==2.10         # Vulnerable to XSS (CVE-2019-10906)
 jfrog-curation-malicious-dummy==0.0.1
