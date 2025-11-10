@@ -35,5 +35,5 @@ jobs:
           JF_ACCESS_TOKEN: ${{ secrets.JF_ACCESS_TOKEN1 }}
           JF_GIT_TOKEN: ${{ secrets.GH_TOKEN }}
           JF_GIT_BASE_BRANCH: ${{ matrix.branch }}    # For repository scan action
-          
+          JF_PR_SHOW_SECRETS_COMMENTS: TRUE
           JFROG_CLI_LOG_LEVEL: DEBUG
